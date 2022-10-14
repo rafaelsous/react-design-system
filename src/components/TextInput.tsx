@@ -34,7 +34,8 @@ TextInputIcon.displayName = 'TextInput.Icon';
 function TextInputInput({ ...rest }: TextInputInputProps) {
   return (
     <input
-      className="min-h-12 flex-1 bg-transparent outline-none font-bold text-gray-100 text-xs placeholder:text-gray-400"
+      className="min-h-12 flex-1 bg-gray-800 outline-none font-bold text-gray-100 text-xs placeholder:text-gray-400"
+      // shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline
       {...rest}
     />
   )
